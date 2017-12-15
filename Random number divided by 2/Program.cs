@@ -10,6 +10,9 @@ namespace Random_number_divided_by_2
     {
         static void Main(string[] args)
         {
+            Random random = new Random();
+            Double number = random.Next(0, 100);
+            Console.WriteLine("The half of " +  number +  " is " + number / 2);
         }
     }
 }
